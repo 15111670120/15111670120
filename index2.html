@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.aa{
+				height: 600px;
+				display: flex;
+				background: whitesmoke;
+				flex-direction: row-reverse;
+				justify-content: space-around;
+				/*align-items: stretch;*/
+				flex-wrap: wrap;
+				
+			}
+			.aa div{
+				width: 100px;
+				height: 100px;
+				display: flex;
+				text-align: center;
+				line-height: 100px;
+
+			}
+			.bb1{
+				background: blueviolet;
+				order: 1;
+				align-self: flex-start;
+				flex: 2;
+			}
+			.bb2{
+				background: aqua;
+				order: 3;
+				flex: 1;
+			}
+			.bb3{
+				background: pink;
+				order: 2;
+				flex: 1;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="aa">
+			<div class="bb1">1</div>
+			<div class="bb2">2</div>
+			<div class="bb3">3</div>
+			<!--<div class="bb1">1</div>
+			<div class="bb2">2</div>
+			<div class="bb3">3</div>
+			<div class="bb1">1</div>
+			<div class="bb2">2</div>
+			<div class="bb3">3</div>
+			<div class="bb1">1</div>
+			<div class="bb2">2</div>
+			<div class="bb3">3</div>
+			<div class="bb1">1</div>
+			<div class="bb2">2</div>
+			<div class="bb3">3</div>-->
+		</div>
+	</body>
+</html>
